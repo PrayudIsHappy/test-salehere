@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">test-salehere</string>
+    <string name="common_null">NULL</string>
+    <string name="mock_text_3_goals">3 Goals</string>
+    <string name="mock_text_all_saving_37500_thb">All saving 37500 THB</string>
+    <string name="mock_text_new_goal">New goal</string>
+    <string name="mock_text_best_offer">Best offer</string>
+    <string name="mock_text_suggest_for_you">Suggest for you</string>
+    <string name="mock_text_achievement">Achievement</string>
+    <string name="mock_text_level_2">Level 2</string>
+    <string name="mock_text_what_your_goal">What your goal</string>
+    <string name="mock_text_amount">Amount</string>
+    <string name="mock_text_thb">THB</string>
+    <string name="mock_text_select_date">Select date</string>
+    <string name="mock_text_select_account">Select account</string>
+    <string name="mock_text_money">Money</string>
+    <string name="mock_text_thb_month">THB / Month</string>
+</resources>
+
+
+

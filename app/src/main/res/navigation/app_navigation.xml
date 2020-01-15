@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.project.shimi.testsalehere.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/actionHomeFragmentToNewGoalFragment"
+            app:destination="@id/navigation_new_goal" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_new_goal"
+        android:name="com.project.shimi.testsalehere.ui.newgoal.NewGoalFragment"
+        tools:layout="@layout/fragment_new_goal" />
+
+    <fragment
+        android:id="@+id/navigation_achievement"
+        android:name="com.project.shimi.testsalehere.ui.achievement.AchievementFragment"
+        tools:layout="@layout/fragment_achievement" />
+
+</navigation>
